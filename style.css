@@ -1,0 +1,149 @@
+body { 
+	font-family: 'Manjari', cursive;
+	margin: 0px;
+	text-align: center;
+	background-size: cover;
+}
+
+h1 {
+	color: #000000;
+	font-family: 'Roboto Mono', monospace;
+	text-align: center;
+	margin: 0px;
+	padding-top: 100px;
+	padding-bottom: 133px;
+}
+
+h2 { 
+	color: #03224C;
+	font-family: 'Itim', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 25px;
+ }
+
+p {
+	font-weight: lighter;
+	text-justify: center;
+	text-align: center;
+	color: #03224C;
+	font-family: 'Times New Roman', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #03224C;
+ }
+
+
+.desc {
+  text-align: center;
+  background-size: cover;
+  font-family: 'Liu Jian Mao Cao', cursive;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: auto;
+  }
+}
+@media (max-width: 760px) {
+  .container {
+    width: auto;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    width: auto;
+  }
+}
+
+.box-title {
+	text-align: center;
+	background-image: url(https://cdn.pixabay.com/photo/2019/11/05/17/02/illustration-4603960_1280.jpg);
+	height: 80vh;
+	background-position: center;
+	margin: 0px;
+	background-size: cover;
+	padding-bottom: 0px;
+	vertical-align: 30px;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.img-bordered {
+	border: 5px solid white;
+}
+
+.boxes {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box {
+	flex-basis: 250px;
+	flex-grow: 1;
+	border-radius: 4px;
+	margin: 15px 10px 10px;
+	padding: 50px;
+	box-shadow: 0px 10px 30px #D4D5D4;
+
+}
+
+.box-presentation {
+	text-align: center;
+	background-position: cover;
+	background-size: cover;
+	border-radius: 4px;
+	margin: 15px;
+	padding: 50px;
+	box-shadow: 0px 10px 30px #D4D5D4;
+	size: 400px;
+	display: flex;
+}
+
+.box:hover {
+	background-color: #FFEBE0;
+}
+
+.bouton {
+	background-color: #A30034;
+	color: white;
+	border-radius: 4px;
+	padding: 10px 15px;
+}
+
+.bouton:hover {
+	background-color: #D64554;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 20px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	padding-top: 20px; 
+	color: #A30023;
+}
+
+.list-inline i:hover {
+	color: #D64540;
+	font-size: 50px;
+}
+
+#exp p {
+	margin-bottom: 40px;
+}
+
+
+
+
